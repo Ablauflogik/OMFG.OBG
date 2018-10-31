@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Workspace/SVNFA18/MonoShitShow/OMFG.OBG/OMFG.OBG/Content/daFuq.png</SourceFile>
-  <SourceTime>2018-10-13T21:04:29.7446647-05:00</SourceTime>
-  <DestFile>C:/Workspace/SVNFA18/MonoShitShow/OMFG.OBG/OMFG.OBG/Content/bin/Windows/daFuq.xnb</DestFile>
-  <DestTime>2018-10-20T01:13:46.6793456-05:00</DestTime>
+  <SourceFile>D:/Git/Monty/OMFG.OBG/OMFG.OBG/Content/daFuq.png</SourceFile>
+  <SourceTime>2018-10-30T22:47:02.5780499-05:00</SourceTime>
+  <DestFile>D:/Git/Monty/OMFG.OBG/OMFG.OBG/Content/bin/Windows/daFuq.xnb</DestFile>
+  <DestTime>2018-10-30T22:58:37.8468583-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T09:05:36-06:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

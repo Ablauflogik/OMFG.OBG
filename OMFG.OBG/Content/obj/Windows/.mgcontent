@@ -4,8 +4,8 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Workspace/SVNFA18/MonoShitShow/OMFG.OBG/OMFG.OBG/Content/daFuq.png</File>
-    <File>C:/Workspace/SVNFA18/MonoShitShow/OMFG.OBG/OMFG.OBG/Content/ghostFlip.png</File>
-    <File>C:/Workspace/SVNFA18/MonoShitShow/OMFG.OBG/OMFG.OBG/Content/home.png</File>
+    <File>D:/Git/Monty/OMFG.OBG/OMFG.OBG/Content/daFuq.png</File>
+    <File>D:/Git/Monty/OMFG.OBG/OMFG.OBG/Content/ghostFlip.png</File>
+    <File>D:/Git/Monty/OMFG.OBG/OMFG.OBG/Content/home.png</File>
   </SourceFiles>
 </SourceFileCollection>

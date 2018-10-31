@@ -27,9 +27,15 @@ namespace OMFG.OBG
 
         public HouseOfWinnersANDChickenDinners(Game game, Alien alien) : base(game)
         {
+            this.alien = alien;
+        }
+
+        public override void Initialize()
+        {
+            base.Initialize();
+            
             Direction = new Vector2(-1, 0);
             this.Location = new Vector2(2000 + (400), 80);
-            this.alien = alien;
             this.Speed = 140;
         }
 
@@ -38,25 +44,17 @@ namespace OMFG.OBG
             time = (float)gameTime.ElapsedGameTime.TotalMilliseconds;
             Location = Location + ((Direction * Speed) * (time / 1000));
 
-            if (this.Intersects(alien))
+            if (this.Intersects(alien) && this.PerPixelCollisionWTansform(alien))
             {
-                if (this.PerPixelCollisionWTansform(alien))
-                {   
-                    State = DudeState.Won;
-                    Game.Components.Clear();
-                     //if (gamePad.Buttons.Back == ButtonState.Pressed
-                    //    || keyboard.IsKeyDown(Keys.Enter))
-                    //{
-                    //    this.Reset(); 
-                    //}
-                }
-               
+                State = DudeState.Won;
+                Game.Components.Clear();
+
             }
 
             Console.WriteLine("PRESS W TO RESTART");
             base.Update(gameTime);
-
         }
+
         protected override void LoadContent()
         {
             this.SpriteTexture = this.Game.Content.Load<Texture2D>("home");
@@ -66,6 +64,6 @@ namespace OMFG.OBG
 
             base.LoadContent();
         }
-        
+
     }
 }

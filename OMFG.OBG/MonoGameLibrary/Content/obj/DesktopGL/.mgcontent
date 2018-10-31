@@ -4,7 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Workspace/SVNFA18/MonoShitShow/OMFG.OBG/OMFG.OBG/MonoGameLibrary/Content/Arial.spritefont</File>
-    <File>C:/Workspace/SVNFA18/MonoShitShow/OMFG.OBG/OMFG.OBG/MonoGameLibrary/Content/SpriteMarker.png</File>
+    <File>D:/Git/Monty/OMFG.OBG/OMFG.OBG/MonoGameLibrary/Content/Arial.spritefont</File>
+    <File>D:/Git/Monty/OMFG.OBG/OMFG.OBG/MonoGameLibrary/Content/SpriteMarker.png</File>
   </SourceFiles>
 </SourceFileCollection>
